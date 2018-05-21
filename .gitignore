@@ -1,0 +1,11 @@
+.DS_Store
+*.pyc
+.idea
+.tox
+.cache
+wip
+build
+dist
+venv
+*egg-info
+*dev.cfg

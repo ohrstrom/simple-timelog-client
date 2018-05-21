@@ -1,0 +1,3 @@
+
+class TimelogClientAPIException(BaseException):
+    pass
