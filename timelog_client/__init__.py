@@ -13,7 +13,7 @@ from datetime import datetime, timedelta, date
 from .client import TimelogClient
 from .exceptions import TimelogClientAPIException
 
-CONFIG_DIR = os.path.join(Path.home(), '.timelog')
+CONFIG_DIR = os.path.join(os.path.expanduser('~'), '.timelog')
 CONFIG_FILE = os.path.join(CONFIG_DIR, 'config.ini')
 
 PRINT_LINE_WIDTH = 120
