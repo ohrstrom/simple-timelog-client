@@ -343,7 +343,7 @@ def watch(ip_address):
 
         last_state = state
 
-        time.sleep(5)
+        time.sleep(60)
 
 
 
