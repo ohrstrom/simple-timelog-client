@@ -4,6 +4,7 @@ from setuptools import setup, find_packages
 INSTALL_REQUIREMENTS = [
     'Click>=6.0,<7.0',
     'requests>=2.18',
+    'python-dateutil>=2.3.7',
 ]
 
 setup(
